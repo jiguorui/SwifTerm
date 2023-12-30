@@ -1,9 +1,3 @@
-# SwiftlyFinder
-Swiftly Finder - a tool for local files search
+# SwifTerm
+Swiftly Term - a terminal different
 
-# Feature 
-index the specify dir files
-browser based ui
-local or public serv
-
-auth if public
