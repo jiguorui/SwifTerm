@@ -1,0 +1,26 @@
+import { Button, VerticalBox } from "std-widgets.slint";
+export component MainWindow {
+    width: 400px;
+    height: 300px;
+
+    
+    VerticalBox {
+        Text {
+            text: "Hello, world!";
+            vertical_alignment: center;
+            horizontal_alignment: center;
+        }
+        Button {
+            text: "Select .deb file";
+            // Event handling for file selection
+        }
+        TextInput {
+            //placeholder_text: "Enter Debian machine address";
+        }
+        // Additional inputs for credentials
+        Button {
+            text: "Upload and Install";
+            // Event handling for upload and installation
+        }
+    }
+}
